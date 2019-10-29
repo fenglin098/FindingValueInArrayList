@@ -11,8 +11,8 @@ public class Main {
         for (int item : arr1) {
             int searchIndex = Collections.binarySearch(arr1, userInput);
             if (searchIndex>=0) {
-                int count = 0;
-                count++;
+                int count=0;
+                count+=Collections.frequency();
                 System.out.println(userInput + " was found " + count + " times.");
             } else {
                 System.out.println(userInput + " was not found.");
